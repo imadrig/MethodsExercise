@@ -34,7 +34,12 @@ namespace MethodsExercise
 
             int remainder = Modulus(100,3);
 
-            Console.WriteLine($"The results are: {sum}, {difference}, {product}, {quotient}, and {remainder}."); 
+            Console.WriteLine($"The results are: " + Environment.NewLine +
+                $"5 + 10 = {sum}, " + Environment.NewLine +
+                $"25 - 13 = {difference}, " + Environment.NewLine +
+                $"3 x 6 = {product}, " + Environment.NewLine +
+                $"100 / 50 = {quotient}, and " + Environment.NewLine +
+                $"the remainder of 100 / 3 = {remainder}."); 
         }
 
         //Exercise 1 Methods
